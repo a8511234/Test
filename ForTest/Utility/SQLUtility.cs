@@ -3,50 +3,83 @@ using System.Data;
 
 namespace ForTest.Utility
 {
-    public class SQLUtility
+    public class SQLUtility(string conn)
     {
-        public bool QuerySP(Object data)
+        string connectionString = conn;
+        public string CreateQuerySP(string sp,string data)
         {
-            string connectionString = "Server=your_server;Database=your_db;User Id=your_user;Password=your_password;";
+            string resultJson = null;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("YourStoredProcedureName", conn))
+                using (SqlCommand cmd = new SqlCommand(sp, conn))
                 {
+                    Guid groupId = Guid.NewGuid();
+
                     cmd.CommandType = CommandType.StoredProcedure;
-
-                    // 範例參數（請依照實際的 SP 參數名稱與型別修改）
-                    cmd.Parameters.AddWithValue("@Param1", 123);
-                    cmd.Parameters.AddWithValue("@Param2", "Test");
-
+                    cmd.Parameters.AddWithValue("JsonInput", data);
+                    cmd.Parameters.AddWithValue("GroupID", groupId);
+                    SqlParameter output = new SqlParameter("@ReturnJSON", SqlDbType.NVarChar, -1)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(output);
                     conn.Open();
                     cmd.ExecuteNonQuery();
+                    resultJson = (string)output.Value;
                 }
             }
-            return true;
+            return resultJson;
         }
 
-        public object QuerySPWithRes(Object data)
+        public string QuerySP(string sp, string data)
         {
-            string connectionString = "Server=your_server;Database=your_db;User Id=your_user;Password=your_password;";
+            string resultJson = null;
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                using (SqlCommand cmd = new SqlCommand("YourStoredProcedureName", conn))
+                using (SqlCommand cmd = new SqlCommand(sp, conn))
                 {
-                    cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@SearchId", 456);
+                    Guid groupId = Guid.NewGuid();
 
-                    conn.Open();
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("SID", data);
+                    cmd.Parameters.AddWithValue("GroupID", groupId);
+                    SqlParameter output = new SqlParameter("@ReturnJSON", SqlDbType.NVarChar, -1)
                     {
-                        while (reader.Read())
-                        {
-                            Console.WriteLine("Column1: " + reader["Column1"]);
-                            // 讀取其他欄位...
-                        }
-                    }
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(output);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    resultJson = (string)output.Value;
                 }
             }
-            return new object();
+            return resultJson;
+        }
+
+        public string UpdateQuerySP(string sp,string sid, string data)
+        {
+            string resultJson = null;
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                using (SqlCommand cmd = new SqlCommand(sp, conn))
+                {
+                    Guid groupId = Guid.NewGuid();
+
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("SID", sid);
+                    cmd.Parameters.AddWithValue("JsonInput", data);
+                    cmd.Parameters.AddWithValue("GroupID", groupId);
+                    SqlParameter output = new SqlParameter("@ReturnJSON", SqlDbType.NVarChar, -1)
+                    {
+                        Direction = ParameterDirection.Output
+                    };
+                    cmd.Parameters.Add(output);
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                    resultJson = (string)output.Value;
+                }
+            }
+            return resultJson;
         }
     }
 }

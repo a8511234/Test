@@ -1,23 +1,71 @@
 [
   {
-    "ContainingType": "ForTest.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
+    "ContainingType": "ForTest.Controllers.BackendExamController",
+    "Method": "Create",
+    "RelativePath": "BackendExam/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "ForTest.Models.Data",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForTest.Controllers.BackendExamController",
+    "Method": "Delete",
+    "RelativePath": "BackendExam/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Sid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForTest.Controllers.BackendExamController",
+    "Method": "Select",
+    "RelativePath": "BackendExam/Select",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ForTest.WeatherForecast, ForTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "Sid",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ForTest.Controllers.BackendExamController",
+    "Method": "Update",
+    "RelativePath": "BackendExam/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Sid",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "data",
+        "Type": "ForTest.Models.Data",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
