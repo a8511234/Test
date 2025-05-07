@@ -25,10 +25,4 @@
 
         public string? NowID { get; set; }
     }
-
-    public class UpdateData
-    {
-        public string SID { get; set; }
-        public Data Data { get; set; }
-    }
 }

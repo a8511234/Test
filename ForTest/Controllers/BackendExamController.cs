@@ -13,13 +13,11 @@ namespace ForTest.Controllers
     [Route("[controller]")]
     public class BackendExamController : ControllerBase
     {
-
-
         [HttpGet("Select")]
         public ActionResult Select(string Sid)
         {
-            SQLUtility sQLUtility = new SQLUtility("Server=localhost;Database=ForTest;TrustServerCertificate=true;User Id=sa;Password=00000000");
-            string res = sQLUtility.QuerySP("[dbo].[ACPD_Read]", Sid);
+            SQLUtility sQLUtility = new SQLUtility();
+            string res = sQLUtility.QuerySP("[dbo].[ACPD_Read]", Sid, null);
             return Ok(res);
         }
 
@@ -28,9 +26,9 @@ namespace ForTest.Controllers
         {
             try
             {
-                SQLUtility sQLUtility = new SQLUtility("Server=localhost;Database=ForTest;TrustServerCertificate=true;User Id=sa;Password=00000000");
+                SQLUtility sQLUtility = new SQLUtility();
                 string jsonString = JsonSerializer.Serialize(data);
-                string res = sQLUtility.CreateQuerySP("[dbo].[ACPD_Create]", jsonString);
+                string res = sQLUtility.QuerySP("[dbo].[ACPD_Create]",null , jsonString);
                 return Ok(res);
             }
             catch
@@ -45,9 +43,9 @@ namespace ForTest.Controllers
         {
             try
             {
-                SQLUtility sQLUtility = new SQLUtility("Server=localhost;Database=ForTest;TrustServerCertificate=true;User Id=sa;Password=00000000");
+                SQLUtility sQLUtility = new SQLUtility();
                 string jsonString = JsonSerializer.Serialize(data);
-                string res = sQLUtility.UpdateQuerySP("[dbo].[ACPD_Update]", Sid, jsonString);
+                string res = sQLUtility.QuerySP("[dbo].[ACPD_Update]", Sid, jsonString);
                 return Ok(res);
             }
             catch
@@ -61,8 +59,8 @@ namespace ForTest.Controllers
         {
             try
             {
-                SQLUtility sQLUtility = new SQLUtility("Server=localhost;Database=ForTest;TrustServerCertificate=true;User Id=sa;Password=00000000");
-                string res = sQLUtility.QuerySP("[dbo].[ACPD_Delete]", Sid);
+                SQLUtility sQLUtility = new SQLUtility();
+                string res = sQLUtility.QuerySP("[dbo].[ACPD_Delete]", Sid, null);
                 return Ok(res);
             }
             catch
