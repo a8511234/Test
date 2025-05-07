@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\controllers\\backendexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\controllers\\backendexamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\utility\\sqlutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\utility\\sqlutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|c:\\users\\\u6797\u548C\u8AFA\\source\\repos\\fortest\\fortest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{95E1E250-94C8-4B53-B603-B6626F1EAA77}|ForTest\\ForTest.csproj|solutionrelative:fortest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ForTest\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ForTest\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T15:04:02.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\appsettings.json",
+              "RelativeDocumentMoniker": "ForTest\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\appsettings.json",
+              "RelativeToolTip": "ForTest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T15:03:26.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ForTest\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\WeatherForecast.cs",
+              "RelativeToolTip": "ForTest\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:57:41.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ForTest\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ForTest\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T14:57:39.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SQLUtility.cs",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Utility\\SQLUtility.cs",
+              "RelativeDocumentMoniker": "ForTest\\Utility\\SQLUtility.cs",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Utility\\SQLUtility.cs",
+              "RelativeToolTip": "ForTest\\Utility\\SQLUtility.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T07:22:08.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Program.cs",
+              "RelativeDocumentMoniker": "ForTest\\Program.cs",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Program.cs",
+              "RelativeToolTip": "ForTest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T01:27:52.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BackendExamController.cs",
+              "DocumentMoniker": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Controllers\\BackendExamController.cs",
+              "RelativeDocumentMoniker": "ForTest\\Controllers\\BackendExamController.cs",
+              "ToolTip": "C:\\Users\\\u6797\u548C\u8AFA\\source\\repos\\ForTest\\ForTest\\Controllers\\BackendExamController.cs",
+              "RelativeToolTip": "ForTest\\Controllers\\BackendExamController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T01:27:36.933Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
